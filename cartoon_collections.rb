@@ -38,7 +38,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
 plan = nil
   planeteer_calls.each do |arr|
-    if arr.any?{valid_calls}
+    if arr.any?["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
       plan = arr
     end
 
