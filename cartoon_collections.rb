@@ -26,8 +26,8 @@ def long_planeteer_calls(planeteer_calls)
     if arr.length > 4
 long = true
     end
-    long
   end
+  long
 end
 
 def find_valid_calls(planeteer_calls)
