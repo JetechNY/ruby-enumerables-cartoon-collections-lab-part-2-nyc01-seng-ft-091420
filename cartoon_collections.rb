@@ -24,9 +24,9 @@ def long_planeteer_calls(planeteer_calls)
   long = nil
   planeteer_calls.each do |arr|
     if arr.length > 4
-long = true
-else
-  long = false
+      long = true
+    else
+      long = false
     end
   end
   long
