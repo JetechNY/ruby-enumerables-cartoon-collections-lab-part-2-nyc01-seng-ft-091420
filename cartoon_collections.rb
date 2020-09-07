@@ -41,7 +41,5 @@ plan = nil
     if valid_calls.include?(arr)
       plan = arr
         end
-plan
   end
-
 end
