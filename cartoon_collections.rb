@@ -41,7 +41,7 @@ plan = nil
     if arr == valid_calls
       plan = arr
     end
-plan
-  end
 
+  end
+plan
 end
