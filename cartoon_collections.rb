@@ -42,6 +42,6 @@ plan = nil
       plan = arr
     end
 
-  end    
+  end
 plan
 end
