@@ -40,6 +40,7 @@ plan = nil
   planeteer_calls.each do |arr|
     if valid_calls.include?(arr)
       plan = arr
+      break
         end
   end
 end
