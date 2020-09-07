@@ -26,6 +26,7 @@ def long_planeteer_calls(planeteer_calls)
     if arr.length > 4
 long = true
     end
+    long
   end
 end
 
