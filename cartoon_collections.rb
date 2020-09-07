@@ -1,7 +1,7 @@
 def square_array(array)
 sq = []
 array.each do |arr|
-  sq = arr**2
+  sq << arr**2
 end
 sq
   # Use an Enumerable to square every element in the passed in array
